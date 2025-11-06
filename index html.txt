@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GlowGuide | Smart Skincare Companion</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #fffafc;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background: #f8e9ef;
+      padding: 30px 20px;
+      border-bottom: 3px solid #f3cfe2;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin: 0;
+      color: #333;
+    }
+
+    h2 {
+      color: #555;
+      margin-top: 30px;
+    }
+
+    p {
+      color: #666;
+      max-width: 600px;
+      margin: 10px auto;
+      line-height: 1.6;
+    }
+
+    .container {
+      padding: 30px 20px;
+    }
+
+    .feature {
+      background: #fdf8fa;
+      border: 1px solid #f3cfe2;
+      border-radius: 16px;
+      margin: 20px auto;
+      padding: 25px;
+      max-width: 600px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+    }
+
+    .icon {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      background-color: #ffdbe9;
+      color: #333;
+      padding: 12px 24px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 600;
+      box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+      transition: background-color 0.2s ease;
+    }
+
+    .button:hover {
+      background-color: #f9c8dd;
+    }
+
+    footer {
+      background: #f8e9ef;
+      padding: 15px;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #666;
+    }
+
+    .emoji {
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>✨ GlowGuide ✨</h1>
+    <p>Your trusted skincare companion — scan, learn, and build your perfect routine.</p>
+  </header>
+
+  <div class="container">
+
+    <div class="feature">
+      <div class="icon">📷</div>
+      <h2>Ingredient Check Scanner</h2>
+      <p>Scan any skincare product to instantly learn whether its ingredients match your skin’s unique needs. 
+      Get easy-to-understand explanations for each ingredient — no more confusing jargon!</p>
+      <a href="#" class="button">Try the Scanner</a>
+    </div>
+
+    <div class="feature">
+      <div class="icon">🧴</div>
+      <h2>Verified Routine Builder</h2>
+      <p>Build your personalized skincare routine with dermatologist-backed recommendations. 
+      We curate trusted products and guide you toward a safe, effective routine that fits your goals.</p>
+      <a href="#" class="button">Start My Routine</a>
+    </div>
+
+    <div class="feature">
+      <div class="icon">💧</div>
+      <h2>Track Your Skin Journey</h2>
+      <p>Upload progress photos, track how your skin feels, and celebrate improvements over time. 
+      Stay motivated and consistent with gentle reminders and encouragement. 🌿</p>
+      <a href="#" class="button">View Progress</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>Made with 💖 for healthy, confident skin · Dermatologist-backed insights</p>
+  </footer>
+
+</body>
+</html>
